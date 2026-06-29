@@ -31,5 +31,5 @@ jobs:
          push: true
          platforms: linux/amd64,linux/arm64
          tags: |
-           ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:main
-           ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:${{ github.sha }}
+           ghcr.io/rdnath93/skills-publish-docker-images/stackoverflown:main
+           ghcr.io/rdnath93/skills-publish-docker-images/stackoverflown:${{ github.sha }}
